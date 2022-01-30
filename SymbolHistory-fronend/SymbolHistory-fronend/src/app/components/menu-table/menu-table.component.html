@@ -1,0 +1,8 @@
+<div class="card shadow m-4">
+    <h5 class="card-title text-center align-middle mt-2 mb-0">List of Symbols</h5>
+    <hr>
+    <div *ngFor="let item of list">
+        <menu-symbols [symbol] ="item.symbol" [name] ="item.name" [price] ="item.price"></menu-symbols>
+
+    </div>
+</div>

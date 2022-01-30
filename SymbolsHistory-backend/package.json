@@ -1,0 +1,19 @@
+{
+  "name": "symbols-history",
+  "version": "1.0.0",
+  "description": "This project is a technical test by BolsaSantiago. It should show 4 api routes and get the data form 2 files symbols.json and historica.json",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "author": "Iván Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "nodemon": "^2.0.4"
+  }
+}

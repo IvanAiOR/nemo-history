@@ -1,0 +1,7 @@
+.darker:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.darker {
+  transition: 1s;
+}
